@@ -1,0 +1,31 @@
+2020-09-16T12:55:55,392 [main] INFO  (StartupInfoLogger.java:55) - Starting DigitalAdmissionIntegrationApplication on LAPTOP-7Q71JRRC with PID 524 (C:\Cea\digital-admission-expurgo\target\classes started by 55119 in C:\Cea\digital-admission-expurgo)
+2020-09-16T12:55:55,404 [main] INFO  (SpringApplication.java:655) - The following profiles are active: homo
+2020-09-16T12:55:56,361 [main] INFO  (RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-16T12:55:56,478 [main] INFO  (RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 100ms. Found 1 JPA repository interfaces.
+2020-09-16T12:55:57,579 [main] INFO  (TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+2020-09-16T12:55:57,595 [main] INFO  (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-16T12:55:57,595 [main] INFO  (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-09-16T12:55:57,595 [main] INFO  (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-16T12:55:57,795 [main] INFO  (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-09-16T12:55:57,795 [main] INFO  (ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 2319 ms
+2020-09-16T12:55:58,080 [main] INFO  (ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16T12:55:58,096 [main] INFO  (ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'taskScheduler'
+2020-09-16T12:55:58,112 [main] INFO  (HikariDataSource.java:110) - HikariPool-1 - Starting...
+2020-09-16T12:55:59,097 [main] INFO  (PoolBase.java:535) - HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method abstract getNetworkTimeout()I of interface java.sql.Connection.)
+2020-09-16T12:55:59,124 [main] INFO  (HikariDataSource.java:123) - HikariPool-1 - Start completed.
+2020-09-16T12:55:59,197 [task-1] INFO  (LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-16T12:55:59,265 [main] WARN  (JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-16T12:55:59,282 [task-1] INFO  (Version.java:44) - HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-09-16T12:55:59,519 [task-1] INFO  (JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-16T12:55:59,729 [main] INFO  (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-16T12:55:59,763 [task-1] INFO  (Dialect.java:172) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-09-16T12:55:59,903 [main] INFO  (TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-16T12:55:59,903 [main] INFO  (DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+2020-09-16T12:56:01,620 [task-1] INFO  (JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-16T12:56:01,620 [task-1] INFO  (AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-16T12:56:02,036 [main] INFO  (DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+2020-09-16T12:56:02,052 [main] INFO  (StartupInfoLogger.java:61) - Started DigitalAdmissionIntegrationApplication in 7.409 seconds (JVM running for 9.184)
+2020-09-16T12:56:15,030 [scheduling-1] INFO  (ScheduledAdmissionCron.java:33) - ====> Start process search status -> Admitido: 2020-09-16T12:56:15.030136600
+2020-09-16T12:56:30,021 [scheduling-1] INFO  (ScheduledAdmissionCron.java:33) - ====> Start process search status -> Admitido: 2020-09-16T12:56:30.021308800
+2020-09-16T12:56:45,011 [scheduling-1] INFO  (ScheduledAdmissionCron.java:33) - ====> Start process search status -> Admitido: 2020-09-16T12:56:45.011035500
+2020-09-16T12:57:00,022 [scheduling-1] INFO  (ScheduledAdmissionCron.java:33) - ====> Start process search status -> Admitido: 2020-09-16T12:57:00.022209800

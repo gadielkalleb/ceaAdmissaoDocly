@@ -1,0 +1,39 @@
+2020-09-15T17:48:09,376 [main] INFO  (StartupInfoLogger.java:55) - Starting DigitalAdmissionIntegrationApplication v0.0.1-SNAPSHOT on LAPTOP-7Q71JRRC with PID 7868 (C:\Cea\jar\digital-admission-admi-docly-0.0.1-SNAPSHOT.jar started by 55119 in C:\Program Files\Java\jdk-11.0.6\bin)
+2020-09-15T17:48:09,391 [main] INFO  (SpringApplication.java:655) - The following profiles are active: homo
+2020-09-15T17:48:10,428 [main] INFO  (RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-15T17:48:10,546 [main] INFO  (RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 106ms. Found 2 JPA repository interfaces.
+2020-09-15T17:48:11,472 [main] INFO  (TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+2020-09-15T17:48:11,483 [main] INFO  (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-15T17:48:11,483 [main] INFO  (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-09-15T17:48:11,483 [main] INFO  (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-15T17:48:11,564 [main] INFO  (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-09-15T17:48:11,564 [main] INFO  (ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 2103 ms
+2020-09-15T17:48:11,848 [main] INFO  (ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-15T17:48:11,864 [main] INFO  (HikariDataSource.java:110) - HikariPool-1 - Starting...
+2020-09-15T17:48:12,602 [main] INFO  (PoolBase.java:535) - HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method abstract getNetworkTimeout()I of interface java.sql.Connection.)
+2020-09-15T17:48:12,619 [main] INFO  (HikariDataSource.java:123) - HikariPool-1 - Start completed.
+2020-09-15T17:48:12,719 [task-1] INFO  (LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-15T17:48:12,818 [main] WARN  (JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-15T17:48:12,919 [task-1] INFO  (Version.java:44) - HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-09-15T17:48:13,247 [task-1] INFO  (JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-15T17:48:13,351 [main] INFO  (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-15T17:48:13,404 [main] INFO  (TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-15T17:48:13,404 [main] INFO  (DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+2020-09-15T17:48:13,550 [task-1] INFO  (Dialect.java:172) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-09-15T17:48:14,868 [task-1] INFO  (JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-15T17:48:14,884 [task-1] INFO  (AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-15T17:48:15,374 [main] INFO  (DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+2020-09-15T17:48:15,394 [main] INFO  (StartupInfoLogger.java:61) - Started DigitalAdmissionIntegrationApplication in 6.555 seconds (JVM running for 7.827)
+2020-09-15T17:48:15,399 [main] INFO  (DigitalAdmissionIntegrationApplication.java:29) - Start process: 2020-09-15T17:48:15.398896700
+2020-09-15T17:48:15,399 [main] INFO  (DigitalAdmissionIntegrationApplication.java:30) - start date: 1990-01-01T00:00:00.000Z
+2020-09-15T17:48:15,399 [main] INFO  (DigitalAdmissionIntegrationApplication.java:31) - end date: 2020-12-31T00:00:00.000Z
+2020-09-15T17:48:15,404 [main] INFO  (DoclyServiceImpl.java:47) - ====> postAuthentication: https://homo.docly.com.br/api/login
+2020-09-15T17:48:17,639 [main] INFO  (DoclyServiceImpl.java:73) - ====> getPreAdmission: https://homo.docly.com.br/api/admissoes
+2020-09-15T17:48:17,639 [main] INFO  (DoclyServiceImpl.java:74) - ====> token: c835f020-f794-11ea-baae-f9eede420e4f
+2020-09-15T17:48:18,903 [main] INFO  (ScheduledAdmissionJob.java:39) - ====> id | cpf: 5f40237ee1371703e5e49dc3|228.314.098-61
+2020-09-15T17:48:19,325 [main] INFO  (ScheduledAdmissionJob.java:39) - ====> id | cpf: 5f43f23be1371703e5e49dd1|228.314.098-61
+2020-09-15T17:48:19,489 [main] INFO  (ScheduledAdmissionJob.java:48) - ====> execute sucess 
+2020-09-15T17:48:19,719 [SpringContextShutdownHook] INFO  (AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-15T17:48:19,719 [SpringContextShutdownHook] INFO  (ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-15T17:48:19,719 [SpringContextShutdownHook] INFO  (HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+2020-09-15T17:48:20,098 [SpringContextShutdownHook] INFO  (HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
